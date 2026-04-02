@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justin Sanabria — Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">JS</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <p class="hero-label">Available for work</p>
+      <h1>
+        Justin<br />
+        Sanabria
+      </h1>
+      <p class="hero-role">Data Analyst</p>
+    </div>
+    <div class="hero-right">
+      <p class="hero-intro">
+        I work with data to find the story behind the numbers.
+        My focus is on making information clear, organized, and useful —
+        whether that's cleaning a dataset, writing a query, or building a chart
+        that actually makes sense to the people reading it.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-link">See my projects &rarr;</a>
+        <a href="resume.pdf" class="btn-link muted" target="_blank">Resume</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">Scroll down</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="about-inner">
+      <div class="about-label">About</div>
+      <div class="about-content">
+        <h2>A little bit about me</h2>
+        <p>
+          I'm currently building my foundation in data analytics — learning by doing,
+          not just watching tutorials. I've been working through real datasets,
+          practicing SQL, picking up Python, and figuring out how to make visualizations
+          that are actually worth looking at.
+        </p>
+        <p>
+          I'm detail-oriented and patient with messy data. I don't mind going through
+          thousands of rows to find what doesn't belong. I'm looking for a role where
+          I can keep growing and start contributing to something real.
+        </p>
+        <a href="resume.pdf" class="underline-link" target="_blank">Download my resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2>Projects</h2>
+    </div>
+
+    <article class="project-row">
+      <div class="project-meta">
+        <span class="project-num">01</span>
+        <ul class="project-tools">
+          <li>Python</li>
+          <li>pandas</li>
+          <li>matplotlib</li>
+        </ul>
+      </div>
+      <div class="project-info">
+        <h3>Retail Sales Analysis</h3>
+        <p>
+          Took a year's worth of retail transaction data and dug into it —
+          which products sold best, what time of year drove the most revenue,
+          and where the slow months were. The goal was to produce something
+          a store manager could actually use to make decisions.
+        </p>
+        <div class="project-links">
+          <a href="#" class="underline-link">GitHub</a>
+          <a href="#" class="underline-link">View report</a>
+        </div>
+      </div>
+      <div class="project-visual pv-orange"></div>
+    </article>
+
+    <article class="project-row">
+      <div class="project-meta">
+        <span class="project-num">02</span>
+        <ul class="project-tools">
+          <li>SQL</li>
+          <li>Excel</li>
+          <li>Pivot Tables</li>
+        </ul>
+      </div>
+      <div class="project-info">
+        <h3>Employee Records Dashboard</h3>
+        <p>
+          Started with a raw employee spreadsheet full of duplicates,
+          inconsistent formatting, and missing values. Used SQL to clean and
+          query it, then built an Excel dashboard with pivot tables to track
+          headcount by department and flag turnover patterns.
+        </p>
+        <div class="project-links">
+          <a href="#" class="underline-link">GitHub</a>
+          <a href="#" class="underline-link">View dashboard</a>
+        </div>
+      </div>
+      <div class="project-visual pv-navy"></div>
+    </article>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-body">
+      <div class="skill-group">
+        <h4>Languages &amp; Tools</h4>
+        <ul>
+          <li>Python <span>(pandas, matplotlib)</span></li>
+          <li>SQL <span>(queries, joins, aggregations)</span></li>
+          <li>Excel / Google Sheets <span>(pivot tables, VLOOKUP, formulas)</span></li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h4>Data Skills</h4>
+        <ul>
+          <li>Data cleaning &amp; transformation</li>
+          <li>Exploratory data analysis</li>
+          <li>Data visualization</li>
+          <li>Reporting &amp; documentation</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h4>Currently Learning</h4>
+        <ul>
+          <li>Tableau</li>
+          <li>PostgreSQL</li>
+          <li>Statistics fundamentals</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="contact-inner">
+      <h2>Let's connect</h2>
+      <p>
+        I'm actively looking for entry-level data roles. If you have an opening
+        or just want to talk about data, I'd love to hear from you.
+      </p>
+      <a href="mailto:justinsanabria11@gmail.com" class="contact-email">justinsanabria11@gmail.com</a>
+      <div class="contact-social">
+        <a href="https://www.linkedin.com/in/justin-sanabria-6080991b9" target="_blank">LinkedIn</a>
+        <a href="https://github.com/justinsanabria" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Justin Sanabria &mdash; 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
